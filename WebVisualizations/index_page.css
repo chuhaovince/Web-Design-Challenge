@@ -1,16 +1,22 @@
-
 .navbar {
-    background-color : #ffffff;
 
 }
-
-.navbar li {
-
-    display: inline-block;
+.navbar .navbar-brand {
+    background-color: rgb(6, 156, 156);
+    padding: 16px 12px;
+    font-size: 25px;
+    font-weight:bold;
+    color: #ffffff;
+    margin-left:2%;
+    margin-right:75%;
+    
 }
 
-.navbar a {
-    text-decoration: none;
-    cursor: pointer;
-}
+.navbar .nav-link {
+    font-size: 22px;
+    margin-right: 10px;
+    margin-left:10px;
+    display:inline-block;
 
+    
+}
