@@ -1,5 +1,16 @@
-<style type = "text/css">
 
-    
+.navbar {
+    background-color : #ffffff;
 
-</style>
+}
+
+.navbar li {
+
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
