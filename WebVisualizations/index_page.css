@@ -1,32 +1,133 @@
 .navbar {
     position:static;
-}
-.navbar .navbar-brand {
-    background-color: rgb(6, 156, 156);
-    padding: 8px 10px;
-    font-size: 23px;
-    font-weight:bold;
-    color: #ffffff;
-    margin-left:2%;
-    margin-right:2%;
-    
+    padding : 1px;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:2px;
+    margin-right:2px;
 }
 
-.collapse {
-    font-size: 18px;
-    margin-right: 10px;
-    margin-left:10px;
-    display:inline;
-    position: absolute;
-    right : 0;
-  
-    
+.navbar-brand {
+    background-color: rgb(6, 156, 156);
+    color: #ffffff;
+    padding: 8px 10px;
+    font-size: 25px;
+    font-weight:bold;
+    margin-left:5%; margin-right:2%; margin-top:0; margin-bottom:0;
+    border-radius: 2px;
 }
 
 .navbar-nav {
-    display: inline;
-}
-.dropdown-menu {
-    
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left:10px;
+    position: absolute;
+    right : 0;
 }
 
+.nav-item {
+    display: inline-block;
+    margin-right: 23px;
+}
+
+.nav-link {
+    color : #000000;
+}
+
+body {
+    background-color : rgb(202, 199, 199);
+}
+
+.images {
+    align-self: auto;
+    margin-right : 20px;
+    margin-bottom : 40px;
+}
+
+.col-md-8 {
+    padding-right : 2%;
+    padding-left : 2%;
+    padding-top : 30px;
+    padding-bottom : 30px;
+    margin-top : 70px;
+    margin-right : 2%;
+    background-color : white;
+    position : absolute;
+    width : 58%;
+    left : 3%;
+}
+
+.header-1 {
+    color:rgb(6, 156, 156);
+    margin-top : 35px;
+    padding : 30px;
+    text-align: left;
+}
+
+.header-2 {
+    color:rgb(6, 156, 156);
+    margin-top : 35px;
+    padding : 30px;
+    text-align: left;
+}
+
+.text { 
+    margin-bottom : 25px;
+}
+
+.col-md-4 {
+    padding-right : 2%;
+    padding-left : 2%;
+    padding-top : 30px;
+    padding-bottom : 30px;
+    margin-top : 70px;
+    margin-left : 2%;
+    background-color : white;
+    position : absolute;
+    width : 40%;
+    right : 3%;
+}
+
+.col {
+    background-color: white;
+    padding-top : 50px;
+    margin-top : 70px;
+    margin-bottom : 70px;
+}
+
+.dataframe {
+    text-align: center;
+    border-collapse: collapse;
+    table-layout: initial;
+ 
+}
+
+tr, td, th {
+    padding : 8px;
+}
+
+tr:nth-child(even) {background-color: #ddd9d9;}
+
+.data_header {
+    color : rgb(6, 156, 156);
+    margin-bottom : 20px;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left : 40px;
+}
+
+.col p {
+    margin-bottom : 30px;
+    margin-left : 40px;
+}
+
+@media max-width: 575.98px {
+    .dataframe {
+    width: 20%;}
+  }
+  
+  /* if the browser window is at least 1000px-s wide: */
+  @media screen and (max-width: 1000px) {
+    .dataframe {
+    width: 30%;}
+  }
