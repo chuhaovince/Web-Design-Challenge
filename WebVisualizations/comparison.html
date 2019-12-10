@@ -11,28 +11,69 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand bg-light">
+    <nav class="navbar navbar-expand-lg"> <!--navigation bar-->
         <a class="navbar-brand" href="index.html">Lattitude</a>
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown">
+                <li class="nav-item active dropdown">
+                    <!--create dropdown button-->
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="flase">Plots</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Max Temperature</a>
-                        <a class="dropdown-item" href="#">Humidity</a>
-                        <a class="dropdown-item" href="#">Cloudiness</a>
-                        <a class="dropdown-item" href="#">Wind Speed</a>
+                        <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
                     </div>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="comparison.html">Comparison</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="data.html">Data</a>
                 </li>
             </ul>
         </div>
     </nav>
+        <div class = "container" id= "container-3">
+            <div class = "row">
+                <div class = "col-12"> <!--merge all 12 columns into one, for all sizes of screens-->
+                    <h2 class = "data_header">Comparison: Latitude vs X</h2>
+                    <hr class="my-5">
+                    <p>Click any plot to get an in-depth analysis.</p>
+                </div>
+            </div>
+        </div>
+        <div class = "container" id = "container-1">
+            <div class = "row">
+                <div class = "col-md-6"> 
+                    <h4 class="header-4">vs Max Temperature</h4>
+                    <a href="maxtemp.html"><img  title = "Max Temperature" src = "Resources/assets/images/Fig1.png" alt = "Lattitude vs. Max Temp"></a>
+                </div>
+            
+                <div class = "col-md-6"> 
+                    <h4 class="header-4">vs Humidity</h4>
+                    <a href="humidity.html"><img  title = "Max Temperature" src = "Resources/assets/images/Fig2.png" alt = "Lattitude vs. Humidity"></a>
+                </div>
+            </div>
+        </div>         
+        <div class = "container" id = "container-2">
+            <div class = "row">
+                <div class = "col-md-6"> 
+                    <h4 class="header-4">vs Cloudiness</h4>
+                    <a href="cloudiness.html"><img  title = "Max Temperature" src = "Resources/assets/images/Fig3.png" alt = "Lattitude vs. Cloudiness"></a>
+                </div>
+            <hr class="my-3">
+                <div class = "col-md-6"> 
+                    <h4 class="header-4">vs Wind Speed</h4>
+                    <a href="windspeed.html"><img  title = "Max Temperature" src = "Resources/assets/images/Fig4.png" alt = "Lattitude vs. Wind Speed"></a>
+                </div>
+            </div>
+        </div>           
+
+
 
 </body>
 </html>
