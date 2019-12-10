@@ -240,6 +240,10 @@ tr:nth-child(even) {background-color: #ddd9d9;}
     .dropdown-menu {
         background-color: rgb(6, 156, 156);
     }
+
+    .data_header {
+        font-size: 30px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { /*small*/
@@ -287,6 +291,10 @@ tr:nth-child(even) {background-color: #ddd9d9;}
     .dropdown-menu {
         background-color: rgb(6, 156, 156);
     }
+
+    .data_header {
+        font-size: 34px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) { /*medium*/
@@ -325,5 +333,15 @@ tr:nth-child(even) {background-color: #ddd9d9;}
 
     .dropdown-menu {
         background-color: rgb(6, 156, 156);
+    }
+
+    .my-3 {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .my-3 {
+        display: none;
     }
 }
