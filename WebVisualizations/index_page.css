@@ -64,7 +64,7 @@ body {
 .images li {
     display :inline;
     align-self: center;
-    margin-left : 4%;
+    margin-left : 1%;
 }
 
 .fit {
@@ -210,11 +210,21 @@ tr:nth-child(even) {background-color: #ddd9d9;}
     background-color : white;
     position : relative;
     margin : 0;
-    margin-bottom : 50px;
+    margin-bottom :0;
+    margin-top : 50px;
     padding : 30px;
+    width : 100%;
     left : 0%;
     right : 0%;
-    }  
+    }   
+    
+    .right-fit {
+        max-width : 100%;
+        margin-right : auto;
+        margin-left: auto;
+        display: block;
+    }
+
     .fit {
         max-width: 21%;
         margin : 0;
@@ -257,8 +267,8 @@ tr:nth-child(even) {background-color: #ddd9d9;}
   .col-md-12 {
     background-color : white;
     position : relative;
-    margin : 0;
-    margin-bottom : 50px;
+    margin-bottom : 0;
+    margin-top : 50px;
     padding : 30px;
     left : 0%;
     right : 0%;
@@ -309,8 +319,8 @@ tr:nth-child(even) {background-color: #ddd9d9;}
   .col-md-12 {
     background-color : white;
     position : relative;
-    margin : 0;
-    margin-bottom : 50px;
+    margin-bottom : 0;
+    margin-top : 60px;
     padding : 30px;
     left : 0%;
     right : 0%;
